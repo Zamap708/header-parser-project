@@ -5,6 +5,8 @@
   "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "devstart": "nodemon index.js",
     "start": "node index.js"
   },
@@ -16,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-headerparser.git"
+    "url": "https://github.com/Zamap708/header-parser-project.git"
   },
   "bugs": {
     "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
   },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-headerparser#readme",
+  "homepage": "https://zamap708.github.io/header-parser-project",
   "keywords": [
     "freeCodeCamp",
     "node",
